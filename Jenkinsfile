@@ -8,13 +8,13 @@ pipeline{
             }
             post{
                 always{
-                    echo "========always========"
+                    echo "Operation Started....."
                 }
                 success{
-                    echo "========A executed successfully========"
+                    echo "===Operation Complete successfuly==="
                 }
                 failure{
-                    echo "========A execution failed========"
+                    echo "===Operation failed==="
                 }
             }
         }
